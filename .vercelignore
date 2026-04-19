@@ -1,0 +1,10 @@
+@"
+/node_modules
+/.git
+/storage/logs/*.log
+/storage/framework/cache/*.json
+/tests
+/.env
+.env.*
+!.env.production
+"@ | Out-File -FilePath .vercelignore -Encoding UTF8
